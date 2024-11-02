@@ -27,7 +27,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        Circle circle = new Circle(150,200,120);
+        Circle circle = new Circle(150,210,120);
         circle.setFill(Color.RED);
         Blend blend = new Blend();
         ColorInput color = new ColorInput(70, 20, 160, 150, Color.LIMEGREEN);
